@@ -4,8 +4,8 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    password = "Minecraft22",
-    database = "project1"
+    password = "", #insert MySQL password
+    database = "" #insert database name
 )
 
 cursor = mydb.cursor()
