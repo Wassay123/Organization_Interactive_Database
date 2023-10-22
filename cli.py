@@ -1,6 +1,6 @@
 import mysql.connector 
 
-#database credentials here, TA please change any credentials you need to run the program
+#database credentials here
 mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
